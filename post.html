@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Post a New Opportunity</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header__section">
+    <div class="container">
+      <h1 class="site-title">NYU Startup Connect</h1>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="#">Browse</a>
+        <a href="post.html">Post</a>
+        <a href="#">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="post-section">
+    <div class="container">
+      <h2>Post a New Opportunity</h2>
+      <form class="post-form">
+        <label for="roleType">Role type</label>
+        <select id="roleType" name="roleType" required>
+          <option value="">Select role type</option>
+          <option value="cofounder">Co‑founder</option>
+          <option value="internship">Internship</option>
+          <option value="parttime">Part‑time</option>
+        </select>
+        
+        <label for="description">Opportunity description</label>
+        <textarea id="description" name="description" placeholder="Describe your opportunity..." required></textarea>
+        
+        <label for="upload">Upload supporting file (optional)</label>
+        <input id="upload" type="file" name="file">
+        
+        <button type="submit">Post</button>
+      </form>
+    </div>
+  </section>
+
+
+  <section class="why__section">
+    <div class="container">
+      <h2>Why NYU Startup Connect</h2>
+      <p>
+        Currently, NYU students seeking to explore opportunities in startups have two ways: Spreadsheets (like the Stern internship list) and Networking Events (hosted by Leslie or other NYU clubs). 
+        There is currently no website where NYU students can both post and apply for startup roles and search for co‑founders.
+      </p>
+    </div>
+  </section>
+
+
+  <footer class="footer__section">
+    <div class="container">
+      <p>Made by Viktor Danilkovych for Front End Web Class</p>
+    </div>
+  </footer>
+</body>
+</html>
